@@ -2,7 +2,7 @@ def get_infections_by_requested_time(currently_infected, days):
     return currently_infected * (2 ** (days // 3))
 
 
-def estimator(data, requested_time):
+def estimator(data, requested_time=1):
     impact = severe_impact = dict()
     impact["currentlyInfected"] = data["reportedCases"] * 10
     severe_impact["currentlyInfected"] = data["reportedCases"] * 50
