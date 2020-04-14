@@ -23,3 +23,7 @@ covid19_estimator_py.egg-info/
 node_modules/*
 package-lock.json
 .idea
+env/
+.python-version
+build
+dist

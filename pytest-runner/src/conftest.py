@@ -1,4 +1,8 @@
-def data():
+import pytest
+
+
+@pytest.fixture
+def input_data():
     return {
         "region": {
             "name": "Africa",
